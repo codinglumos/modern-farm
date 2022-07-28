@@ -1,12 +1,13 @@
 //Create a seed with type, height, and weight- import on main
 
-export const createAsparagus = () => {
-let asparagusSeedling= {
+ const createAsparagus = () => {
+let asparagusSeed = {
     
-    type: "asparagus",
+    type: "Asparagus",
     height: 24,
     output: 4
 }
-return asparagusSeedling
+return asparagusSeed
 }
 
+console.log(createAsparagus())

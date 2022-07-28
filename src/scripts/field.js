@@ -9,7 +9,7 @@ let growingPlantsNfield = []
 export const addPlant = () => {
     //push all seeds into the growingPlants array above (corn has two objects in the array- split them)
         //const allSeeds = [createAsparagus, createCorn, createPotato, createSoybean, createSunflower, createWheat]
-    if (Array.isArray(seedlingsObject)) {
+    if (Array.isArray(seedObject)) {
         let splitCorn = {
             type: corn,
             height: 180,

@@ -1,12 +1,12 @@
 //Create a seed with type, height, and weight- import on main
 
 export const createSoybean = () => {
-    let soybeanSeedling = {
+    let soybeanSeed = {
         
-        type: soybean,
+        type: "Soybean",
         height: 20,
         output: 4
     }
-    return soybeanSeedling
+    return soybeanSeed
     }
     

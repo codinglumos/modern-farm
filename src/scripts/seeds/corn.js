@@ -2,17 +2,17 @@
 
 
 export const createCorn = () => {
-let cornSeedlings = [{
-    
-    type: corn,
+let cornSeed = [{
+    id: 1,
+    type: "Corn",
     height: 180,
     output: 6
 },
 {
-    
-    type: corn,
+    id: 2,
+    type: "Corn",
     height: 180,
     output: 6
 }]
-return cornSeedlings
+return cornSeed
 }

@@ -16,7 +16,7 @@ const yearlyPlan = createPlan()
 
 
 const asparagusSeed = createAsparagus()
-//console.log(asparagusSeed)
+console.log(asparagusSeed)
 const cornSeeds = createCorn()
 // console.log(cornSeedling)
 const potatoSeed = createPotato()
